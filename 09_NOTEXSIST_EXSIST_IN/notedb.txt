@@ -1,0 +1,5 @@
+1. OP of corerelated subquery is either true or false where op of in true, false and null.
+2. The database stop checking rows for the exsists once it finds at least one matching row , for the IN however,
+   it scaned every row for the specified value.
+3. NULL Values returned by subquery i.e compared to outer statement using in , not in return unknown Thus using null values 
+   with in can lead to unexpected results.
