@@ -1,0 +1,2 @@
+analyze the highest and lowest open prices for each FAANG stock by month over the years.
+https://datalemur.com/questions/sql-bloomberg-stock-min-max-1
